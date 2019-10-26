@@ -137,6 +137,45 @@ li {
 /*End header styles*/
 
 
+/*Banners styles*/
+
+.banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.banners__title {
+    width: 100%;
+
+}
+
+.banners__left {
+    border: 1px solid #b0b0b0;
+}
+
+.banners__control {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.banners__btnL, .banners__btnR {
+    color: #f2ac04;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 15px 0;
+
+
+
+}
+
+
+
+
+/*End banners styles*/
 
 
 @media(max-width: 1000px) {
@@ -173,3 +212,5 @@ li {
         justify-content: center;
     }
 }
+
+
